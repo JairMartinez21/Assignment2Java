@@ -1,0 +1,43 @@
+.root {
+    -fx-background-color: #f0f8ff; /* AliceBlue */
+}
+
+.button {
+    -fx-padding: 8 15 8 15;
+    -fx-background-color: #4682b4; /* SteelBlue */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-opacity: 0.8;
+}
+
+.text-field {
+    -fx-border-color: #d3d3d3; /* LightGrey */
+    -fx-background-color: white;
+    -fx-background-radius: 3;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.list-view {
+    -fx-border-color: #d3d3d3;
+}
+
+.list-cell:odd {
+    -fx-background-color: #e6e6fa; /* Lavender */
+}
+
+.list-cell:even {
+    -fx-background-color: #ffffff;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #708090; /* SlateGray */
+    -fx-text-fill: white;
+}
