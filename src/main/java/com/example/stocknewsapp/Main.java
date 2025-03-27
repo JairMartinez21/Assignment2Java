@@ -21,9 +21,6 @@ public class Main extends Application {
 
         primaryStage.setScene(scene);
 
-        // Optional: Application icon
-        // primaryStage.getIcons().add(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/com/example/StockNewsApp/stock_icon.png"))));
-
         primaryStage.show();
     }
 
