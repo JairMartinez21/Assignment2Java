@@ -93,7 +93,7 @@ public class PrimaryController implements Initializable {
 
                 List<NewsArticle> news = newsAPIService.getNewsArticles(symbol);
 
-                // ✅ Limit news to 10 articles
+                // Limit news to 10 articles
                 List<NewsArticle> limitedNews = news.stream().limit(10).toList();
                 ObservableList<NewsArticle> newsList = FXCollections.observableArrayList(limitedNews);
 
@@ -128,7 +128,6 @@ public class PrimaryController implements Initializable {
         }
     }
 
-    // ✅ Moved inside the class
     private void showAlert(Alert.AlertType alertType, String title, String message) {
         Alert alert = new Alert(alertType);
         alert.setTitle(title);
