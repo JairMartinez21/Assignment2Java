@@ -10,11 +10,6 @@ public class Stock {
     @SerializedName("06. volume")
     private String volume;
 
-    // Add more fields as needed based on the Alpha Vantage API response
-    // For example:
-    // @SerializedName("07. latest trading day")
-    // private String latestTradingDay;
-
     public String getSymbol() {
         return symbol;
     }
